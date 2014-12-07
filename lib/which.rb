@@ -63,7 +63,7 @@ module Which
 
   def which(filename, path=ENV["PATH"], path_sep=File::PATH_SEPARATOR, dir_sep=File::SEPARATOR)
     dirs = path.split(/#{path_sep}/)
-    
+
     locations = []
 
     dirs.each do |dir|
