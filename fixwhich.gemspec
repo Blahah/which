@@ -1,7 +1,7 @@
 # Ensure we require the local version and not one we might have installed already
 spec = Gem::Specification.new do |s|
   s.name = 'fixwhich'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.author = ['Erik Hollensbe', 'Richard Smith-Unna']
   s.email = 'rds45@cam.ac.uk'
   s.homepage = 'http://github.com/Blahah/which'
