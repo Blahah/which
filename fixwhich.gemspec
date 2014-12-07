@@ -1,7 +1,7 @@
 # Ensure we require the local version and not one we might have installed already
 spec = Gem::Specification.new do |s|
   s.name = 'fixwhich'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.author = ['Erik Hollensbe', 'Richard Smith-Unna']
   s.email = 'rds45@cam.ac.uk'
   s.homepage = 'http://blahah.net'
@@ -10,7 +10,7 @@ spec = Gem::Specification.new do |s|
   s.licenses = ['MIT']
 # Add your other files here if you make them
   s.files = %w(
-lib/which.rb
+lib/fixwhich.rb
   )
   s.require_paths << 'lib'
   s.has_rdoc = true
